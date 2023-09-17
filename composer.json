@@ -1,0 +1,19 @@
+{
+    "name": "stevy/framework",
+    "description": "Core Lara",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Stevy\\Framework\\": "src/",
+            "Router\\": "routes/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stevy",
+            "email": "stevyralambomanana@gmail.com"
+        }
+    ],
+    "require": {}
+}
