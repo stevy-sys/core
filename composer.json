@@ -15,5 +15,8 @@
             "email": "stevyralambomanana@gmail.com"
         }
     ],
+    "require": {
+        "php": "^8.0"
+    },
     "license": "MIT"
 }
