@@ -1,6 +1,6 @@
 {
     "name": "stevy/framework",
-    "description": "Core Laravel",
+    "description": "Core Laravel framwork",
     "type": "library",
     "autoload": {
         "psr-4": {
