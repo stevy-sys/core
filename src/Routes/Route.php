@@ -1,8 +1,9 @@
 <?php
 
-namespace Core\Routes;
+namespace Stevy\Framework\Routes;
 
-use Core\Database\DBConnection;
+use Stevy\Framework\Database\DBConnection;
+
 
 
 
@@ -48,11 +49,10 @@ class Route {
     {
         $dbConnection = new DBConnection(DB_NAME, DB_HOST, DB_USER, DB_PWD);
         $params = explode('@', $this->action);
-
+        
         //controller avec methode
         $controller = new $params[0]($dbConnection);
         $method = $params[1];
-
         return isset($this->matches[1]) ? $controller->$method($this->matches[1]) : $controller->$method();
     }
 }

@@ -1,8 +1,10 @@
 <?php
 
-namespace Core\Controller;
+namespace Stevy\Framework\Controller;
 
-use Core\Database\DBConnection;
+use Stevy\Framework\Database\DBConnection;
+
+
 
 abstract class Controller {
 

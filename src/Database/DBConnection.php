@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Database;
+namespace Stevy\Framework\Database;
 
 use PDO;
 

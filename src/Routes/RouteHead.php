@@ -1,9 +1,9 @@
 <?php
 
+use Stevy\Framework\Routes\Router;
 
-use Core\Routes\Router;
-use App\Providers\AppProviders;
-AppProviders::execute();
+
+
 
 /**
  * $_GET['url] : url tapez par utilisateur

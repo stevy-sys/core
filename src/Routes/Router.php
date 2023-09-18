@@ -1,11 +1,12 @@
 <?php
 
-namespace Core\Routes;
+namespace Stevy\Framework\Routes;
+
+use Stevy\Framework\Routes\Route;
+use Stevy\Framework\Exception\NotFoundException;
 
 
 
-use Core\Routes\Route;
-use Core\Exception\NotFoundException;
 
 
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Model;
+namespace Stevy\Framework\Model;
 
 use PDO;
-use Core\Database\DBConnection;
+use Stevy\Framework\Database\DBConnection;
 
 abstract class Model {
 

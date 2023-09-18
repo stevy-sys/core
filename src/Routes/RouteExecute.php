@@ -1,6 +1,8 @@
 <?php
 
-use Core\Exception\NotFoundException;
+use Stevy\Framework\Exception\NotFoundException;
+
+
 
 /**
  * recherche de route existant et execution de controller

@@ -4,9 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Stevy\\Framework\\": "src/",
-            "Router\\": "routes/",
-            "Database\\": "database/"
+            "Stevy\\Framework\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^7.4"
     },
     "license": "MIT"
 }

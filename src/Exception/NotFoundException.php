@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Exception;
+namespace Stevy\Framework\Exception;
 
 use Exception;
 use Throwable;

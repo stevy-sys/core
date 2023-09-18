@@ -1,8 +1,9 @@
 <?php
 
-namespace Core\Database;
+namespace Stevy\Framework\Database;
 
-use App\Providers\AppProviders;
+use Stevy\Framework\Database\DBConnection;
+
 
 class Migrations 
 {
