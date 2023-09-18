@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "stevy/framework": "1.0.0"
+        "php": "^7.4"
     },
     "license": "MIT"
 }
