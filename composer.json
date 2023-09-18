@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^8.",
-        "stevy/framework": "^1.0.0"
+        "stevy/framework": "^1.0.1"
     },
     "license": "MIT"
 }
