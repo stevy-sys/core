@@ -14,8 +14,8 @@
         }
     ],
     "require": {
-        "php": "^8.",
-        "stevy/framework": "^1.0.1"
+        "php": "^8."
     },
+    "minimum-stability": "dev",
     "license": "MIT"
 }
