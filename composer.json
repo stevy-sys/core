@@ -15,6 +15,6 @@
             "email": "stevyralambomanana@gmail.com"
         }
     ],
-    "license": "MIT",
-    "require": {}
+    "version": "1.0.0",
+    "license": "MIT"
 }
